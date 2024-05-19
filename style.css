@@ -1,0 +1,130 @@
+body {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0; /* Убираем внешние отступы у body */
+}
+
+h1 {
+  color: lightgrey;
+  font-family: Arial, sans-serif;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+h2 {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: lightgrey;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+p {
+  color: white; /* Изменяем цвет текста на белый */
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+li {
+  color: lightgrey;
+  font-family: Arial, sans-serif;
+}
+
+.cent {
+  text-align: center;
+}
+
+.sm {
+  color: white; /* Изменяем цвет текста на белый */
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.inform {
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  margin-right: 5px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: lightgrey;
+  text-align: right;
+}
+
+h3 {
+  font-family: Arial, sans-serif;
+  color: lightgrey;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  width: calc(33.33% - 40px);
+  max-width: 300px;
+}
+
+.product img {
+  width: 80%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.favorite-btn {
+  background: white;
+  border: none;
+  cursor: pointer;
+}
+
+.favorite {
+  color: red;
+}
+
+#bonus-but {
+  padding-left: 20px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.list {
+  display: flex;
+}
+
+.slider input[type="range"] {
+  width: 28%;
+  background-color: lightgrey;
+  border-color: lightgrey;
+  color: lightgrey;
+}
+
+.buttons button {
+  background-color: lightgrey; /* Цвет фона кнопок */
+  color: black; /* Цвет текста кнопок */
+  border: none;
+  padding: 10px 20px; /* Внутренние отступы */
+  margin: 5px; /* Внешние отступы */
+  cursor: pointer;
+  border-radius: 5px; /* Скругление углов */
+}
+
+.buttons button:hover {
+  background-color: grey; /* Изменение цвета фона при наведении */
+  color: white; /* Изменение цвета текста при наведении */
+}

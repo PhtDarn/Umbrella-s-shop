@@ -1,0 +1,83 @@
+<html lang="ru">
+
+<head>
+            <meta charset="UTF-8">
+            <link href="style.css" rel="stylesheet">
+            <meta name="keywords" content="Зонт, umbrella">
+            <meta name="description" content="Магазин зонтов">
+            <meta name="author" content="Цыбулевский Александр">
+            <title>Объявления о продаже зонтов</title>
+
+</head>
+
+<body background="bc.jpg" >
+<header>
+<a name='top'><h1>UMBRELLA'S GANG</h1></a>
+<p> Доска объявлений о продаже зонтов </p>
+<div class="buttons">
+  <button id="show-favorites-btn">Избранное</button>
+  <button id="show-women">Женское</button>
+  <button id="show-man">Мужское</button>
+</div>
+<div class = "slider">
+          <input type="range" min="100" max="9999" value="100" id="priceSlider">
+          <p>Цена товара: <span id="priceValue">100</span></p>
+      </div>
+</header>
+
+<main>
+  <section>
+<br>
+<div class="products">
+<div class="product" data-favorite="false" data-women="true" data-man="false" data-price='4500'>
+<img src="women1.png" width="20%" alt="Зонт" >
+<h1> Женский зонт "Rain Berry"</h1>
+<h2> Цена: 4500 ₽ </h2>
+<button class="favorite-btn" type="button">&#9825;</button>
+</div>
+<div class="product" data-favorite="false" data-women="true" data-man="false" data-price='2100'>
+<img src="women2.png" width="20%" alt="Зонт">
+<h1> Женский зонт "Franchesco Mollinary"</h1>
+<h2> Цена: 2100 ₽ </h2>
+<button class="favorite-btn" type="button">&#9825;</button>
+</div>
+<div class="product" data-favorite="false" data-women="true" data-man="false" data-price='8900'>
+<img src="women3.png" width="20%" alt="Зонт">
+<h1> Женский зонт "Trust"</h1>
+<h2> Цена: 8900 ₽ </h2>
+<button class="favorite-btn" type="button">&#9825;</button>
+</div>
+<div class="product" data-favorite="false" data-women="false" data-man="true" data-price='9999'>
+<img src="men1.png" width="20%" alt="Зонт">
+<h1> Мужской зонт "Tri Slona"</h1>
+<h2> Цена: 9999 ₽ </h2>
+<button class="favorite-btn" type="button">&#9825;</button>
+</div>
+<div class="product" data-favorite="false" data-women="false" data-man="true" data-price='1200'>
+<img src="men2.png" width="20%" alt="Зонт">
+<h1> Мужской зонт "Fulton" </h1>
+<h2> Цена: 1200 ₽ </h2>
+<button class="favorite-btn" type="button">&#9825;</button>
+</div>
+<div class="product" data-favorite="false" data-women="false" data-man="true" data-price='5600'>
+<img src="men3.png" width="20%" alt="Зонт">
+<h1> Мужской зонт "Ameyoke"</h1>
+<h2> Цена: 5600 ₽ </h2>
+<button class="favorite-btn" type="button">&#9825;</button>
+</div>
+</div>
+</main>
+<footer>
+<section class='inform'>
+  <h3> Контактная информация:</h3>
+  <a href='mailto:loavo05@gmail.com'>alexandr</a>
+  <br>
+  <a href='tel:+79185840661'>Телефон: +7 918 584 0661</a>
+  <br>
+</section>
+</footer>
+
+<script src="script.js"></script>
+<script src="script-slider.js"></script>
+</body>
+</html>
